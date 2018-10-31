@@ -1,6 +1,6 @@
-# jest-environment-jsdom-twelve
+# jest-environment-jsdom13
 
-Jest environment using JSDOM 12, which does not support Node 6 ([and will therefore not be used in Jest any time soon][simen-comment]).
+Jest environment using JSDOM 13, which does not support Node 6 ([and will therefore not be used in Jest any time soon][simen-comment]).
 
 If you need a newer JSDOM than the one that ships with Jest, add this to your `package.json`:
 
@@ -9,7 +9,7 @@ If you need a newer JSDOM than the one that ships with Jest, add this to your `p
   // …,
   "jest": {
     // …
-    "testEnvironment": "jest-environment-jsdom-12",
+    "testEnvironment": "jsdom13",
     // …
   },
   // …
